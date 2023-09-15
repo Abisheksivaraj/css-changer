@@ -61,7 +61,7 @@ body {
 }
 
 .image {
-  border: 9px solid red;
+  border: 9px solid rgb(2, 2, 2);
   margin-top: 2.5rem;
   width: 41rem;
   height: 408px;
