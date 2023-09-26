@@ -11,10 +11,10 @@ html {
 }
 
 body {
-  /* background-color: #fecbda; */
+  background-color: #ffc2da;
   font-family: 'Comfortaa', cursive;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 1rem 1rem;
 
   overflow-x: hidden;
@@ -27,15 +27,19 @@ body {
 
 .container {
   background-color: #ffc2da;
-  width: 95%;
-  margin-top: 7rem;
+  width: 88%;
+  /* max-height: 150vh; */
   box-shadow: 20px 20px 60px #d9a5b9, -20px -20px 60px #ffdffb;
 
-  border-radius: 1rem ;
+  border-radius: 3rem;
+}
+
+#js{
+  color: #ff0000;
 }
 
 .content {
-  margin-top: rem;
+  /* margin-top: rem; */
   text-align: center;
   padding: 3rem;
 }
@@ -61,14 +65,15 @@ body {
 }
 
 .image {
-  border: 9px solid rgb(2, 2, 2);
   margin-top: 2.5rem;
-  width: 41rem;
-  height: 408px;
+  width: 40rem;
+  height: auto;
 }
 
 img {
   width: 100%;
   height: auto;
   object-fit: contain;
+  border-radius: 6px;
+  border: 9px solid #ff0000;
 }
